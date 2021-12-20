@@ -19,9 +19,16 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "usb_device.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+
+#include <stdbool.h>
+#include <string.h>
+#include "usbd_cdc_if.h"
+#include "3d.h"
+#include "../Src/Driver/lsm6ds3.h"
 
 /* USER CODE END Includes */
 
@@ -40,6 +47,11 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
+SPI_HandleTypeDef hspi1;
+
+TIM_HandleTypeDef htim4;
+
+UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
 
@@ -48,6 +60,9 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
+static void MX_SPI1_Init(void);
+static void MX_TIM4_Init(void);
+static void MX_USART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -74,9 +89,21 @@ int main(void)
 
   /* USER CODE BEGIN Init */
 
-  uint16_t Var = 0;
-  uint8_t i = 0;
-  uint8_t j = 0;
+  //int32_t CH1_DC = 0;
+  //int32_t CH2_DC = 65534;
+  //uint16_t Var = 0;
+  //uint8_t i = 0;
+  //uint8_t j = 0;
+  //uint8_t byte = 0x55;
+
+  vector3_t AccelData;
+  vector3_t GyroData;
+
+  bool Fire_Pyro1 = 0;
+  bool Pyro1_Fired = 0;
+  bool Fire_Pyro2 = 0;
+  bool Pyro2_Fired = 0;
+
 
   /* USER CODE END Init */
 
@@ -84,27 +111,31 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
-  //HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_0);
-  //HAL_NVIC_SetPriority(SysTick_IRQn, 0, 0);
-
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_SPI1_Init();
+  MX_USB_DEVICE_Init();
+  MX_TIM4_Init();
+  MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  //HAL_SetTickFreq(1U);
-  //enableSystick();
+  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, GPIO_PIN_SET);
 
-  //void SysTick_Handler(void);
+/*  HAL_TIM_Base_Start(&htim4);
+  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_1);
+  HAL_TIM_PWM_Start(&htim4, TIM_CHANNEL_2);*/
 
-    /*
-  	HAL_IncTick();
-    HAL_SYSTICK_IRQHandler();
-    HAL_SYSTICK_Callback();
-`	*/
 
+
+
+  LSM6DS3_Init(GPIOC, GPIO_PIN_5, hspi1, LSM6DSL_ACC_FULLSCALE_16G, LSM6DSL_GYRO_FS_500, LSM6DSL_ODR_1660Hz );
+
+
+  //char *data = "0.1";
+  //uint16_t VCP_BUF_LEN = 0;
+  char uart_buf[80];
 
   /* USER CODE END 2 */
 
@@ -113,21 +144,67 @@ int main(void)
   while (1)
   {
 
-	  for(; i < 10; i++)
-	  	  Var++;
+	  if (Fire_Pyro1 == 1 && Pyro1_Fired != 1)
+		{
+		  HAL_GPIO_WritePin(GPIOE, GPIO_PIN_12, GPIO_PIN_SET);
+		  HAL_Delay(500);
+		  HAL_GPIO_WritePin(GPIOE, GPIO_PIN_12, GPIO_PIN_RESET);
+		  Pyro1_Fired = 1;
+		}
+
+	  if (Fire_Pyro2 == 1 && Pyro2_Fired != 1)
+		{
+		  HAL_GPIO_WritePin(GPIOE, GPIO_PIN_13, GPIO_PIN_SET);
+		  HAL_Delay(500);
+		  HAL_GPIO_WritePin(GPIOE, GPIO_PIN_13, GPIO_PIN_RESET);
+		  Pyro2_Fired = 1;
+		}
+
+	  LSM6DS3_AccReadXYZ(&AccelData);
+	  LSM6DS3_GyroReadXYZ(&GyroData);
+
+
+
+	  //snprintf(uart_buf, sizeof(uart_buf), " ACCEL X: %d, Y: %d Z: %d | GYRO X: %d, Y: %d Z: %d    \r\n ", (AccelData.X), (AccelData.Y), (AccelData.Z), (GyroData.X), (GyroData.Y), (GyroData.Z));
+
+	  CDC_Transmit_FS((uint8_t *) uart_buf, sizeof(uart_buf));
+
+
+	  //HAL_UART_Transmit(&huart1, &byte, 1, 100);
 	  HAL_Delay(500);
-	  for(; j < 10; j++)
-	  	  	  Var++;
-	  /*
-	  Var = 1;
-	  HAL_GPIO_TogglePin (GPIOE, GPIO_PIN_12);
-	  Var = 0;
-	  HAL_Delay (500);
-	  */
-	  //HAL_GPIO_WritePin(GPIOE, GPIO_PIN_12, GPIO_PIN_RESET);
 
 
 
+
+
+/*
+
+      while(CH1_DC < 65535)
+      {
+          TIM4->CCR1 = CH1_DC;
+          CH1_DC += 70;
+          HAL_Delay(1);
+      }
+      while(CH2_DC > 0)
+      {
+          TIM4->CCR2 = CH2_DC;
+          CH2_DC -= 70;
+          HAL_Delay(1);
+      }
+      while(CH1_DC > 0)
+      {
+          TIM4->CCR1 = CH1_DC;
+          CH1_DC -= 70;
+          HAL_Delay(1);
+      }
+      while(CH2_DC < 65535)
+      {
+          TIM4->CCR2 = CH2_DC;
+          CH2_DC += 70;
+          HAL_Delay(1);
+      }
+
+*/
 
     /* USER CODE END WHILE */
 
@@ -171,12 +248,128 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
   RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV16;
 
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
   {
     Error_Handler();
   }
+}
+
+/**
+  * @brief SPI1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_SPI1_Init(void)
+{
+
+  /* USER CODE BEGIN SPI1_Init 0 */
+
+  /* USER CODE END SPI1_Init 0 */
+
+  /* USER CODE BEGIN SPI1_Init 1 */
+
+  /* USER CODE END SPI1_Init 1 */
+  /* SPI1 parameter configuration*/
+  hspi1.Instance = SPI1;
+  hspi1.Init.Mode = SPI_MODE_MASTER;
+  hspi1.Init.Direction = SPI_DIRECTION_2LINES;
+  hspi1.Init.DataSize = SPI_DATASIZE_8BIT;
+  hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
+  hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
+  hspi1.Init.NSS = SPI_NSS_SOFT;
+  hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_4;
+  hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
+  hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
+  hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
+  hspi1.Init.CRCPolynomial = 10;
+  if (HAL_SPI_Init(&hspi1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN SPI1_Init 2 */
+
+  /* USER CODE END SPI1_Init 2 */
+
+}
+
+/**
+  * @brief TIM4 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM4_Init(void)
+{
+
+  /* USER CODE BEGIN TIM4_Init 0 */
+
+  /* USER CODE END TIM4_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM4_Init 1 */
+
+  /* USER CODE END TIM4_Init 1 */
+  htim4.Instance = TIM4;
+  htim4.Init.Prescaler = 0;
+  htim4.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim4.Init.Period = 65535;
+  htim4.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim4.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim4) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim4, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim4, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM4_Init 2 */
+
+  /* USER CODE END TIM4_Init 2 */
+
+}
+
+/**
+  * @brief USART1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART1_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART1_Init 0 */
+
+  /* USER CODE END USART1_Init 0 */
+
+  /* USER CODE BEGIN USART1_Init 1 */
+
+  /* USER CODE END USART1_Init 1 */
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 9600;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART1_Init 2 */
+
+  /* USER CODE END USART1_Init 2 */
+
 }
 
 /**
@@ -186,34 +379,38 @@ void SystemClock_Config(void)
   */
 static void MX_GPIO_Init(void)
 {
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOH_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOC_CLK_ENABLE();
+  __HAL_RCC_GPIOE_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(lsm6ds3_CS_GPIO_Port, lsm6ds3_CS_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOE, GPIO_PIN_12|GPIO_PIN_13, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : lsm6ds3_CS_Pin */
+  GPIO_InitStruct.Pin = lsm6ds3_CS_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(lsm6ds3_CS_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PE12 PE13 */
+  GPIO_InitStruct.Pin = GPIO_PIN_12|GPIO_PIN_13;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
 }
 
 /* USER CODE BEGIN 4 */
-
-void enableSystick(void) {
-    /*  dont forget to add this line in
-    void SysTick_Handler(void)
-    {
-     // USER CODE BEGIN SysTick_IRQn 0
-    HAL_SYSTICK_Callback();   <--- this one is missing... // my mS counter is running in that callback
-    */
-
-    //  HAL_RCC_MCOConfig(RCC_MCO, RCC_MCO1SOURCE_SYSCLK, RCC_MCODIV_16);
-    /**Configure the Systick interrupt time */
-    //HAL_SYSTICK_Config(HAL_RCC_GetHCLKFreq() / 1000);
-    /**Configure the Systick */
-    //HAL_SYSTICK_CLKSourceConfig(SYSTICK_CLKSOURCE_HCLK);
-
-    /* SysTick_IRQn interrupt configuration */
-   // HAL_NVIC_SetPriority(SysTick_IRQn, 0, 0);
-
-
-}
 
 /* USER CODE END 4 */
 
@@ -249,4 +446,3 @@ void assert_failed(uint8_t *file, uint32_t line)
 }
 #endif /* USE_FULL_ASSERT */
 
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/
