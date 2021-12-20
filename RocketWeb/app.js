@@ -8,6 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const __publicdirname = path.join(path.dirname(__filename), 'public');
 const __bootstrap = path.join(path.dirname(__filename),'node_modules/bootstrap/dist/css');
+const __jquery = path.join(path.dirname(__filename),'node_modules/jquery/dist');
 
 var app = express();
 
@@ -18,6 +19,7 @@ app.use("/public", express.static(__publicdirname));
 app.use("/img", express.static(path.join(__publicdirname,'img')));
 app.use("/js", express.static(path.join(__publicdirname,'js')));
 app.use('/css', express.static(__bootstrap));
+app.use('/jquery', express.static(__jquery));
 app.use(router);
 
 app.listen(app.get("port"), function() {
