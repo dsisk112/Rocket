@@ -1,0 +1,19 @@
+!SESSION 2021-12-19 21:52:12.688 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/gasisk/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/gasisk/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-12-19 21:52:33.853
+!MESSAGE Log4j initialized with config file /Users/gasisk/Documents/GitHub/Rocket/RocketController/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-12-19 21:52:36.110
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-19 21:53:44.946
+!MESSAGE Indexed 'STM32F407ZGT7' (21 sources, 131 headers) in 5.83 sec: 9,229 declarations; 27,166 references; 6 unresolved inclusions; 89 syntax errors; 1,981 unresolved names (5.2%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-19 22:00:01.661
+!MESSAGE Indexed 'STM32F407ZGT7' (35 sources, 131 headers) in 3.69 sec: 11,599 declarations; 61,015 references; 2 unresolved inclusions; 42 syntax errors; 661 unresolved names (0.9%)
