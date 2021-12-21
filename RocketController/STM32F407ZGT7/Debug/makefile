@@ -16,6 +16,7 @@ RM := rm -rf
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/Driver/subdir.mk
+-include Core/Src/App/subdir.mk
 -include Core/Src/subdir.mk
 -include objects.mk
 
@@ -80,8 +81,8 @@ all: main-build
 main-build: STM32F407ZGT7.elf secondary-outputs
 
 # Tool invocations
-STM32F407ZGT7.elf: $(OBJS) $(USER_OBJS) /Users/gasisk/STM32CubeIDE/Code/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "STM32F407ZGT7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/gasisk/STM32CubeIDE/Code/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407ZGT7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+STM32F407ZGT7.elf: $(OBJS) $(USER_OBJS) /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "STM32F407ZGT7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407ZGT7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

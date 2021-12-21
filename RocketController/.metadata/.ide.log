@@ -568,3 +568,903 @@
 2021-12-19 21:54:08,375 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
 2021-12-19 21:54:08,385 [INFO] ApiDb:276 - Save user favorites file /Users/gasisk/.stm32cubeide/favorites.mcus.txt: 0 item(s)
 2021-12-19 21:54:08,386 [INFO] ApiDb:280 - User favorites MCUs=[]
+2021-12-19 22:07:02,768 [INFO] MainUpdater:2729 - connection check result : 10
+2021-12-19 22:07:02,768 [INFO] MainUpdater:2729 - connection check result : 10
+2021-12-19 22:07:03,245 [INFO] MicroXplorer:447 - Change Database Path : 
+2021-12-19 22:07:03,245 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2021-12-19 22:07:03,246 [WARN] ThirdParty:823 - waiting for thirdparty lock release [close project]
+2021-12-19 22:07:03,246 [INFO] ThirdParty:825 - entering critical section [close project]
+2021-12-19 22:07:03,246 [INFO] ThirdParty:835 - exiting critical section [close project]
+2021-12-19 22:07:03,247 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-19 22:07:03,265 [WARN] IpParametersView:144 - Warning: This peripheral hasn't parameters
+2021-12-19 22:07:03,275 [WARN] MainPanel:249 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2021-12-19 22:07:03,287 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 420489080 Bytes (1073741824)
+2021-12-19 22:07:03,287 [INFO] MicroXplorer:447 - Change Database Path : 
+2021-12-19 22:07:03,287 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2021-12-19 22:07:03,287 [INFO] OpenFileManager:313 - Change cursor
+2021-12-19 22:07:03,297 [INFO] RulesReader:57 - Compatibility file has been processed (244 Rules)
+2021-12-19 22:07:04,246 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2021-12-19 22:07:04,534 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-12-19 22:07:04,534 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-12-19 22:07:04,534 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-12-19 22:07:04,535 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.1.0: no header file found
+2021-12-19 22:07:04,535 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.1.0: no header file found
+2021-12-19 22:07:04,535 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.1.0: no header file found
+2021-12-19 22:07:04,574 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-12-19 22:07:04,574 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-12-19 22:07:04,574 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-12-19 22:07:04,612 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-12-19 22:07:04,612 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-12-19 22:07:04,612 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-12-19 22:07:04,616 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-12-19 22:07:04,616 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-12-19 22:07:04,617 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-12-19 22:07:04,617 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-12-19 22:07:04,617 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-12-19 22:07:04,617 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-12-19 22:07:04,617 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-12-19 22:07:04,620 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.0: no header file found
+2021-12-19 22:07:04,620 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.1: no header file found
+2021-12-19 22:07:04,621 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2021-12-19 22:07:04,621 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.1: no header file found
+2021-12-19 22:07:04,621 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.2: no header file found
+2021-12-19 22:07:04,622 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2021-12-19 22:07:04,622 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.2: no header file found
+2021-12-19 22:07:04,623 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.0: no header file found
+2021-12-19 22:07:04,623 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-12-19 22:07:04,623 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-12-19 22:07:04,623 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-12-19 22:07:04,625 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,626 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,627 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-19 22:07:04,629 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-12-19 22:07:04,629 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-12-19 22:07:04,629 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-12-19 22:07:04,630 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-12-19 22:07:04,630 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-12-19 22:07:04,630 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-12-19 22:07:04,676 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-19 22:07:04,676 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-19 22:07:04,676 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-19 22:07:04,717 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-12-19 22:07:04,717 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-12-19 22:07:04,717 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-12-19 22:07:04,720 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2021-12-19 22:07:04,720 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2021-12-19 22:07:04,720 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-12-19 22:07:04,720 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-12-19 22:07:04,720 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-12-19 22:07:04,721 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.1.0: no header file found
+2021-12-19 22:07:06,268 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2021-12-19 22:07:06,495 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 465910240 Bytes (1073741824)
+2021-12-19 22:07:06,530 [WARN] ThirdParty:785 - waiting for thirdparty lock release [change project]
+2021-12-19 22:07:06,530 [INFO] ThirdParty:787 - entering critical section [change project]
+2021-12-19 22:07:06,530 [INFO] ThirdParty:977 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2021-12-19 22:07:06,530 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2021-12-19 22:07:06,530 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-12-19 22:07:06,530 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.1.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.0.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 1.1.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.2.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.1
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.1
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.17.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-12-19 22:07:06,531 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 2.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 1.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 1.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.1
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.3.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-12-19 22:07:06,532 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.0
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.0
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.1
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.1
+2021-12-19 22:07:06,533 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.0
+2021-12-19 22:07:06,533 [INFO] ThirdParty:793 - exiting critical section [change project]
+2021-12-19 22:07:06,688 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-19 22:07:06,688 [INFO] PinOutPanel:1463 - setPackage(STM32F407ZGTx,LQFP144)
+2021-12-19 22:07:06,807 [INFO] UtilMem:74 - Before build in PCC Used Memory: 528820096 Bytes (1073741824)
+2021-12-19 22:07:06,975 [INFO] UtilMem:74 - After build in PCC Used Memory: 572338048 Bytes (1073741824)
+2021-12-19 22:07:06,982 [INFO] ApiDbMcu:488 - Load IP Config File for USB_DEVICE
+2021-12-19 22:07:06,997 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,998 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,999 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,999 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,999 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,999 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,999 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:06,999 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,000 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,000 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,000 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,000 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,000 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,000 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,001 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,001 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,001 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,001 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,001 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,001 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,002 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,002 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,002 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,002 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,002 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,003 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,004 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,004 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,004 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,004 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,004 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,004 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,004 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,005 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,005 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,005 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,005 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,006 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,006 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,006 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,007 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 22:07:07,008 [INFO] ApiDbMcu:488 - Load IP Config File for PDM2PCM
+2021-12-19 22:07:07,065 [INFO] OpenFileManager:333 - Restore cursor
+2021-12-19 22:08:53,384 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:09:15,883 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:09:31,395 [INFO] Pin:2093 - value.trim() 1 CS
+2021-12-19 22:09:31,395 [INFO] Pin:2094 - Pin value PC5
+2021-12-19 22:09:40,002 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 710958776 Bytes (1073741824)
+2021-12-19 22:09:42,732 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 722491064 Bytes (1073741824)
+2021-12-19 22:09:45,110 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 858805944 Bytes (1073741824)
+2021-12-19 22:09:45,324 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-19 22:09:45,324 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-19 22:09:45,324 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-19 22:09:45,324 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2021-12-19 22:09:45,324 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-19 22:09:45,324 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-19 22:09:45,324 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_OTG_FS
+2021-12-19 22:09:45,325 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-19 22:09:45,325 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2021-12-19 22:09:45,325 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-19 22:09:45,325 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2021-12-19 22:09:45,727 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp_save
+2021-12-19 22:09:45,769 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp
+2021-12-19 22:09:45,803 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp_save
+2021-12-19 22:09:45,848 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp
+2021-12-19 22:09:45,895 [WARN] IPConfigManager:2741 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2021-12-19 22:09:45,902 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp_save
+2021-12-19 22:09:45,941 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp
+2021-12-19 22:09:45,942 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp_save
+2021-12-19 22:09:45,979 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp
+2021-12-19 22:09:45,981 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp_save
+2021-12-19 22:09:46,029 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp
+2021-12-19 22:09:46,031 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp_save
+2021-12-19 22:09:46,086 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp
+2021-12-19 22:09:46,258 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-19 22:09:46,272 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-19 22:09:46,277 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c_save
+2021-12-19 22:09:46,329 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c
+2021-12-19 22:09:46,331 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h_save
+2021-12-19 22:09:46,371 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h
+2021-12-19 22:09:46,373 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h_save
+2021-12-19 22:09:46,415 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h
+2021-12-19 22:09:46,418 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c_save
+2021-12-19 22:09:46,469 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c
+2021-12-19 22:09:46,471 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h_save
+2021-12-19 22:09:46,512 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h
+2021-12-19 22:09:46,514 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c_save
+2021-12-19 22:09:46,562 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c
+2021-12-19 22:09:46,565 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h_save
+2021-12-19 22:09:46,603 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h
+2021-12-19 22:09:46,605 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c_save
+2021-12-19 22:09:46,721 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c
+2021-12-19 22:09:46,730 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c_save
+2021-12-19 22:09:46,787 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c
+2021-12-19 22:09:46,790 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h_save
+2021-12-19 22:09:46,831 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h
+2021-12-19 22:09:46,838 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c_save
+2021-12-19 22:09:46,917 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c
+2021-12-19 22:09:46,919 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp_save
+2021-12-19 22:09:46,957 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp
+2021-12-19 22:09:46,962 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h_save
+2021-12-19 22:09:47,008 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h
+2021-12-19 22:09:47,026 [WARN] IPConfigManager:3151 - IP not found : TIM
+2021-12-19 22:09:47,026 [WARN] CodeGenerator:3358 - IP not found : null
+2021-12-19 22:09:47,030 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h_save
+2021-12-19 22:09:47,077 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h
+2021-12-19 22:09:47,080 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c_save
+2021-12-19 22:09:47,159 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c
+2021-12-19 22:09:47,597 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 83mS.
+2021-12-19 22:09:47,600 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2021-12-19 22:09:47,808 [INFO] ConfigFileManager:1273 - The Die is : DIE413
+2021-12-19 22:09:47,810 [INFO] ApiDbMcu:488 - Load IP Config File for FATFS
+2021-12-19 22:09:47,815 [INFO] ApiDbMcu:488 - Load IP Config File for FREERTOS
+2021-12-19 22:09:47,817 [INFO] ApiDbMcu:488 - Load IP Config File for LIBJPEG
+2021-12-19 22:09:47,823 [INFO] ApiDbMcu:488 - Load IP Config File for LWIP
+2021-12-19 22:09:47,828 [INFO] ApiDbMcu:488 - Load IP Config File for MBEDTLS
+2021-12-19 22:09:47,832 [INFO] ApiDbMcu:488 - Load IP Config File for USB_HOST
+2021-12-19 22:09:48,896 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 1296mS.
+2021-12-19 22:09:48,897 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2021-12-19 22:09:48,901 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2021-12-19 22:10:09,321 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:10:09,380 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:10:09,455 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:10:09,544 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:10:11,918 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:10:12,053 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:10:13,734 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:10:13,849 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:10:17,724 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:10:17,787 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:10:17,860 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:10:23,239 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 586430888 Bytes (1073741824)
+2021-12-19 22:10:24,406 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 596916648 Bytes (1073741824)
+2021-12-19 22:10:27,911 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 702198504 Bytes (1073741824)
+2021-12-19 22:10:28,048 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-19 22:10:28,048 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-19 22:10:28,048 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-19 22:10:28,048 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2021-12-19 22:10:28,048 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-19 22:10:28,049 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-19 22:10:28,049 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_OTG_FS
+2021-12-19 22:10:28,049 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-19 22:10:28,049 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2021-12-19 22:10:28,049 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-19 22:10:28,049 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2021-12-19 22:10:28,427 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp_save
+2021-12-19 22:10:28,465 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp
+2021-12-19 22:10:28,480 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp_save
+2021-12-19 22:10:28,539 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp
+2021-12-19 22:10:28,567 [WARN] IPConfigManager:2741 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2021-12-19 22:10:28,571 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp_save
+2021-12-19 22:10:28,611 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp
+2021-12-19 22:10:28,613 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp_save
+2021-12-19 22:10:28,648 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp
+2021-12-19 22:10:28,649 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp_save
+2021-12-19 22:10:28,693 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp
+2021-12-19 22:10:28,694 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp_save
+2021-12-19 22:10:28,741 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp
+2021-12-19 22:10:28,865 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-19 22:10:28,876 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-19 22:10:28,880 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c_save
+2021-12-19 22:10:28,926 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c
+2021-12-19 22:10:28,927 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h_save
+2021-12-19 22:10:28,968 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h
+2021-12-19 22:10:28,970 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h_save
+2021-12-19 22:10:29,010 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h
+2021-12-19 22:10:29,012 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c_save
+2021-12-19 22:10:29,062 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c
+2021-12-19 22:10:29,063 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h_save
+2021-12-19 22:10:29,105 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h
+2021-12-19 22:10:29,107 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c_save
+2021-12-19 22:10:29,150 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c
+2021-12-19 22:10:29,152 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h_save
+2021-12-19 22:10:29,190 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h
+2021-12-19 22:10:29,191 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c_save
+2021-12-19 22:10:29,237 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c
+2021-12-19 22:10:29,244 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c_save
+2021-12-19 22:10:29,294 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c
+2021-12-19 22:10:29,296 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h_save
+2021-12-19 22:10:29,334 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h
+2021-12-19 22:10:29,340 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c_save
+2021-12-19 22:10:29,414 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c
+2021-12-19 22:10:29,416 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp_save
+2021-12-19 22:10:29,452 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp
+2021-12-19 22:10:29,456 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h_save
+2021-12-19 22:10:29,502 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h
+2021-12-19 22:10:29,517 [WARN] IPConfigManager:3151 - IP not found : TIM
+2021-12-19 22:10:29,517 [WARN] CodeGenerator:3358 - IP not found : null
+2021-12-19 22:10:29,521 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h_save
+2021-12-19 22:10:29,564 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h
+2021-12-19 22:10:29,565 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c_save
+2021-12-19 22:10:29,641 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c
+2021-12-19 22:10:30,126 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 79mS.
+2021-12-19 22:10:30,129 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2021-12-19 22:10:30,324 [INFO] ConfigFileManager:1273 - The Die is : DIE413
+2021-12-19 22:10:31,220 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 1091mS.
+2021-12-19 22:10:31,220 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2021-12-19 22:10:31,225 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2021-12-19 22:11:02,509 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:11:02,549 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:11:02,667 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:11:11,197 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 358089992 Bytes (1073741824)
+2021-12-19 22:11:12,470 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 369097992 Bytes (1073741824)
+2021-12-19 22:11:13,273 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 459568920 Bytes (1073741824)
+2021-12-19 22:11:13,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-19 22:11:13,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-19 22:11:13,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-19 22:11:13,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2021-12-19 22:11:13,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-19 22:11:13,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-19 22:11:13,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_OTG_FS
+2021-12-19 22:11:13,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-19 22:11:13,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2021-12-19 22:11:13,434 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-19 22:11:13,435 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2021-12-19 22:11:13,770 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp_save
+2021-12-19 22:11:13,806 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp
+2021-12-19 22:11:13,818 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp_save
+2021-12-19 22:11:13,853 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp
+2021-12-19 22:11:13,877 [WARN] IPConfigManager:2741 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2021-12-19 22:11:13,880 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp_save
+2021-12-19 22:11:13,917 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp
+2021-12-19 22:11:13,918 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp_save
+2021-12-19 22:11:13,955 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp
+2021-12-19 22:11:13,956 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp_save
+2021-12-19 22:11:14,001 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp
+2021-12-19 22:11:14,002 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp_save
+2021-12-19 22:11:14,051 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp
+2021-12-19 22:11:14,201 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-19 22:11:14,208 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-19 22:11:14,211 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c_save
+2021-12-19 22:11:14,254 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c
+2021-12-19 22:11:14,256 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h_save
+2021-12-19 22:11:14,295 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h
+2021-12-19 22:11:14,297 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h_save
+2021-12-19 22:11:14,337 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h
+2021-12-19 22:11:14,339 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c_save
+2021-12-19 22:11:14,381 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c
+2021-12-19 22:11:14,383 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h_save
+2021-12-19 22:11:14,417 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h
+2021-12-19 22:11:14,419 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c_save
+2021-12-19 22:11:14,457 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c
+2021-12-19 22:11:14,459 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h_save
+2021-12-19 22:11:14,492 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h
+2021-12-19 22:11:14,494 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c_save
+2021-12-19 22:11:14,543 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c
+2021-12-19 22:11:14,551 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c_save
+2021-12-19 22:11:14,604 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c
+2021-12-19 22:11:14,606 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h_save
+2021-12-19 22:11:14,644 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h
+2021-12-19 22:11:14,650 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c_save
+2021-12-19 22:11:14,712 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c
+2021-12-19 22:11:14,714 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp_save
+2021-12-19 22:11:14,750 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp
+2021-12-19 22:11:14,754 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h_save
+2021-12-19 22:11:14,801 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h
+2021-12-19 22:11:14,814 [WARN] IPConfigManager:3151 - IP not found : TIM
+2021-12-19 22:11:14,815 [WARN] CodeGenerator:3358 - IP not found : null
+2021-12-19 22:11:14,817 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h_save
+2021-12-19 22:11:14,859 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h
+2021-12-19 22:11:14,860 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c_save
+2021-12-19 22:11:14,929 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c
+2021-12-19 22:11:15,365 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 78mS.
+2021-12-19 22:11:15,368 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2021-12-19 22:11:15,556 [INFO] ConfigFileManager:1273 - The Die is : DIE413
+2021-12-19 22:11:16,486 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 1118mS.
+2021-12-19 22:11:16,487 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2021-12-19 22:11:16,491 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2021-12-19 22:11:20,849 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:11:20,927 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-19 22:11:41,612 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-19 22:11:41,687 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-19 22:11:48,011 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-19 22:11:48,059 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-19 22:11:49,917 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-19 22:11:49,967 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-19 22:11:59,771 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-19 22:11:59,829 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2021-12-19 22:12:02,078 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 379731096 Bytes (1073741824)
+2021-12-19 22:12:03,339 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 392836248 Bytes (1073741824)
+2021-12-19 22:12:03,640 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 516819264 Bytes (1073741824)
+2021-12-19 22:12:03,777 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-19 22:12:03,777 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-19 22:12:03,777 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-19 22:12:03,777 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2021-12-19 22:12:03,777 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-19 22:12:03,777 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-19 22:12:03,777 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_OTG_FS
+2021-12-19 22:12:03,777 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-19 22:12:03,777 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2021-12-19 22:12:03,777 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-19 22:12:03,778 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2021-12-19 22:12:04,171 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp_save
+2021-12-19 22:12:04,220 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp
+2021-12-19 22:12:04,237 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp_save
+2021-12-19 22:12:04,297 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp
+2021-12-19 22:12:04,328 [WARN] IPConfigManager:2741 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2021-12-19 22:12:04,333 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp_save
+2021-12-19 22:12:04,374 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp
+2021-12-19 22:12:04,376 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp_save
+2021-12-19 22:12:04,414 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp
+2021-12-19 22:12:04,415 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp_save
+2021-12-19 22:12:04,465 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp
+2021-12-19 22:12:04,466 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp_save
+2021-12-19 22:12:04,522 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp
+2021-12-19 22:12:04,642 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-19 22:12:04,651 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-19 22:12:04,655 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c_save
+2021-12-19 22:12:04,713 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c
+2021-12-19 22:12:04,715 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h_save
+2021-12-19 22:12:04,760 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h
+2021-12-19 22:12:04,762 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h_save
+2021-12-19 22:12:04,806 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h
+2021-12-19 22:12:04,809 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c_save
+2021-12-19 22:12:04,886 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c
+2021-12-19 22:12:04,888 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h_save
+2021-12-19 22:12:04,930 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h
+2021-12-19 22:12:04,931 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c_save
+2021-12-19 22:12:04,999 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c
+2021-12-19 22:12:05,001 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h_save
+2021-12-19 22:12:05,038 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h
+2021-12-19 22:12:05,040 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c_save
+2021-12-19 22:12:05,083 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c
+2021-12-19 22:12:05,089 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c_save
+2021-12-19 22:12:05,131 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c
+2021-12-19 22:12:05,132 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h_save
+2021-12-19 22:12:05,171 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h
+2021-12-19 22:12:05,179 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c_save
+2021-12-19 22:12:05,242 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c
+2021-12-19 22:12:05,244 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp_save
+2021-12-19 22:12:05,276 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp
+2021-12-19 22:12:05,279 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h_save
+2021-12-19 22:12:05,320 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h
+2021-12-19 22:12:05,336 [WARN] IPConfigManager:3151 - IP not found : TIM
+2021-12-19 22:12:05,336 [WARN] CodeGenerator:3358 - IP not found : null
+2021-12-19 22:12:05,340 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h_save
+2021-12-19 22:12:05,383 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h
+2021-12-19 22:12:05,385 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c_save
+2021-12-19 22:12:05,455 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c
+2021-12-19 22:12:05,905 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 81mS.
+2021-12-19 22:12:05,908 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2021-12-19 22:12:06,100 [INFO] ConfigFileManager:1273 - The Die is : DIE413
+2021-12-19 22:12:07,058 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 1150mS.
+2021-12-19 22:12:07,058 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2021-12-19 22:12:07,061 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2021-12-20 18:31:42,099 [INFO] MainUpdater:2729 - connection check result : 10
+2021-12-20 18:31:42,100 [INFO] MainUpdater:2729 - connection check result : 10
+2021-12-20 18:31:42,729 [INFO] MicroXplorer:447 - Change Database Path : 
+2021-12-20 18:31:42,730 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2021-12-20 18:31:42,730 [WARN] ThirdParty:823 - waiting for thirdparty lock release [close project]
+2021-12-20 18:31:42,730 [INFO] ThirdParty:825 - entering critical section [close project]
+2021-12-20 18:31:42,730 [INFO] ThirdParty:835 - exiting critical section [close project]
+2021-12-20 18:31:42,731 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-20 18:31:42,733 [WARN] IpParametersView:144 - Warning: This peripheral hasn't parameters
+2021-12-20 18:31:42,735 [WARN] MainPanel:249 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2021-12-20 18:31:42,736 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 463779248 Bytes (835715072)
+2021-12-20 18:31:42,736 [INFO] MicroXplorer:447 - Change Database Path : 
+2021-12-20 18:31:42,737 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2021-12-20 18:31:42,737 [INFO] OpenFileManager:313 - Change cursor
+2021-12-20 18:31:42,748 [INFO] RulesReader:57 - Compatibility file has been processed (244 Rules)
+2021-12-20 18:31:43,725 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2021-12-20 18:31:43,944 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-12-20 18:31:43,944 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-12-20 18:31:43,944 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.0.0: no header file found
+2021-12-20 18:31:43,945 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.1.0: no header file found
+2021-12-20 18:31:43,945 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.1.0: no header file found
+2021-12-20 18:31:43,945 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.1.0: no header file found
+2021-12-20 18:31:43,989 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-12-20 18:31:43,989 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-12-20 18:31:43,989 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.0.0: no header file found
+2021-12-20 18:31:44,033 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-12-20 18:31:44,033 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-12-20 18:31:44,033 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.2.0: no header file found
+2021-12-20 18:31:44,035 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-12-20 18:31:44,035 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.0.0: no header file found
+2021-12-20 18:31:44,035 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2021-12-20 18:31:44,035 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2021-12-20 18:31:44,035 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2021-12-20 18:31:44,035 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2021-12-20 18:31:44,035 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2021-12-20 18:31:44,037 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.0: no header file found
+2021-12-20 18:31:44,038 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.1: no header file found
+2021-12-20 18:31:44,038 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2021-12-20 18:31:44,038 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.1: no header file found
+2021-12-20 18:31:44,038 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.2: no header file found
+2021-12-20 18:31:44,039 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2021-12-20 18:31:44,039 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.2: no header file found
+2021-12-20 18:31:44,039 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.0: no header file found
+2021-12-20 18:31:44,040 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-12-20 18:31:44,040 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-12-20 18:31:44,040 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,042 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,043 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,043 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,043 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,043 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,043 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,043 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2021-12-20 18:31:44,045 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-12-20 18:31:44,045 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-12-20 18:31:44,045 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.0.0: no header file found
+2021-12-20 18:31:44,046 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-12-20 18:31:44,046 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-12-20 18:31:44,046 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2021-12-20 18:31:44,089 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-20 18:31:44,089 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-20 18:31:44,089 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2021-12-20 18:31:44,129 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-12-20 18:31:44,129 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-12-20 18:31:44,129 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.8.3.0: no header file found
+2021-12-20 18:31:44,131 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2021-12-20 18:31:44,131 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.0: no header file found
+2021-12-20 18:31:44,132 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-12-20 18:31:44,132 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-12-20 18:31:44,132 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2021-12-20 18:31:44,132 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.1.0: no header file found
+2021-12-20 18:31:45,775 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2021-12-20 18:31:45,967 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 655777880 Bytes (835715072)
+2021-12-20 18:31:46,007 [WARN] ThirdParty:785 - waiting for thirdparty lock release [change project]
+2021-12-20 18:31:46,008 [INFO] ThirdParty:787 - entering critical section [change project]
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.0.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.1.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.0.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 1.1.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.2.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.0.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.1
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.1
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.2
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.17.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.0.0
+2021-12-20 18:31:46,008 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 2.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 1.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 1.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.1
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 8.3.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 1.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 6.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.2.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.1.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 4.7.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.16.1
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.1
+2021-12-20 18:31:46,009 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.0
+2021-12-20 18:31:46,009 [INFO] ThirdParty:793 - exiting critical section [change project]
+2021-12-20 18:31:46,113 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-20 18:31:46,113 [INFO] PinOutPanel:1463 - setPackage(STM32F407ZGTx,LQFP144)
+2021-12-20 18:31:46,212 [INFO] UtilMem:74 - Before build in PCC Used Memory: 719549680 Bytes (835715072)
+2021-12-20 18:31:46,348 [INFO] UtilMem:74 - After build in PCC Used Memory: 369587184 Bytes (835715072)
+2021-12-20 18:31:46,354 [INFO] ApiDbMcu:488 - Load IP Config File for USB_DEVICE
+2021-12-20 18:31:46,365 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,365 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,365 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,365 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,365 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,365 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,365 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,366 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,366 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,366 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,366 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,366 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,366 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,366 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,366 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,366 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,366 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,367 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,367 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,367 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,367 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,367 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,367 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,367 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,367 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,368 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,368 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,368 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,368 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,368 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,368 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,368 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,368 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,369 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,370 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,370 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,370 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,370 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,370 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,371 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,371 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,371 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,371 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,372 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,372 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-20 18:31:46,373 [INFO] ApiDbMcu:488 - Load IP Config File for PDM2PCM
+2021-12-20 18:31:46,426 [INFO] OpenFileManager:333 - Restore cursor
+2021-12-20 18:32:07,967 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-20 18:32:24,730 [INFO] DbMcusDocs:143 - JSON generation date=Tue Nov 16 11:17:54 EST 2021 (1637079474)
+2021-12-20 18:32:24,858 [INFO] DbMcusDocs:79 - Found 682 MCUs documents
+2021-12-20 18:33:17,074 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 572748880 Bytes (835715072)
+2021-12-20 18:33:20,076 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 587428944 Bytes (835715072)
+2021-12-20 18:33:21,039 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 664499280 Bytes (835715072)
+2021-12-20 18:33:21,196 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-20 18:33:21,196 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-20 18:33:21,196 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-20 18:33:21,196 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2021-12-20 18:33:21,197 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-20 18:33:21,197 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-20 18:33:21,197 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_OTG_FS
+2021-12-20 18:33:21,197 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-20 18:33:21,197 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2021-12-20 18:33:21,197 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-20 18:33:21,197 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2021-12-20 18:33:21,524 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp_save
+2021-12-20 18:33:21,560 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp
+2021-12-20 18:33:21,623 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp_save
+2021-12-20 18:33:21,661 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp
+2021-12-20 18:33:21,689 [WARN] IPConfigManager:2741 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2021-12-20 18:33:21,693 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp_save
+2021-12-20 18:33:21,730 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp
+2021-12-20 18:33:21,731 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp_save
+2021-12-20 18:33:21,768 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp
+2021-12-20 18:33:21,770 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp_save
+2021-12-20 18:33:21,814 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp
+2021-12-20 18:33:21,816 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp_save
+2021-12-20 18:33:21,865 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp
+2021-12-20 18:33:21,975 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-20 18:33:21,981 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-20 18:33:21,985 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c_save
+2021-12-20 18:33:22,030 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c
+2021-12-20 18:33:22,032 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h_save
+2021-12-20 18:33:22,072 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h
+2021-12-20 18:33:22,074 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h_save
+2021-12-20 18:33:22,114 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h
+2021-12-20 18:33:22,116 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c_save
+2021-12-20 18:33:22,167 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c
+2021-12-20 18:33:22,169 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h_save
+2021-12-20 18:33:22,210 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h
+2021-12-20 18:33:22,212 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c_save
+2021-12-20 18:33:22,259 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c
+2021-12-20 18:33:22,262 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h_save
+2021-12-20 18:33:22,303 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h
+2021-12-20 18:33:22,305 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c_save
+2021-12-20 18:33:22,361 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c
+2021-12-20 18:33:22,368 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c_save
+2021-12-20 18:33:22,419 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c
+2021-12-20 18:33:22,421 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h_save
+2021-12-20 18:33:22,461 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h
+2021-12-20 18:33:22,468 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c_save
+2021-12-20 18:33:22,556 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c
+2021-12-20 18:33:22,558 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp_save
+2021-12-20 18:33:22,594 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp
+2021-12-20 18:33:22,598 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h_save
+2021-12-20 18:33:22,647 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h
+2021-12-20 18:33:22,660 [WARN] IPConfigManager:3151 - IP not found : TIM
+2021-12-20 18:33:22,661 [WARN] CodeGenerator:3358 - IP not found : null
+2021-12-20 18:33:22,664 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h_save
+2021-12-20 18:33:22,706 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h
+2021-12-20 18:33:22,708 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c_save
+2021-12-20 18:33:22,784 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c
+2021-12-20 18:33:23,318 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 152mS.
+2021-12-20 18:33:23,323 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2021-12-20 18:33:23,555 [INFO] ConfigFileManager:1273 - The Die is : DIE413
+2021-12-20 18:33:23,557 [INFO] ApiDbMcu:488 - Load IP Config File for FATFS
+2021-12-20 18:33:23,560 [INFO] ApiDbMcu:488 - Load IP Config File for FREERTOS
+2021-12-20 18:33:23,562 [INFO] ApiDbMcu:488 - Load IP Config File for LIBJPEG
+2021-12-20 18:33:23,567 [INFO] ApiDbMcu:488 - Load IP Config File for LWIP
+2021-12-20 18:33:23,572 [INFO] ApiDbMcu:488 - Load IP Config File for MBEDTLS
+2021-12-20 18:33:23,575 [INFO] ApiDbMcu:488 - Load IP Config File for USB_HOST
+2021-12-20 18:33:24,524 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 1201mS.
+2021-12-20 18:33:24,525 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2021-12-20 18:33:24,528 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2021-12-20 18:34:10,215 [INFO] Gpio:254 - dependency for GPIO [RCC, SPI1, SPI3, SYS, USART1, USB_OTG_FS]
+2021-12-20 18:34:25,158 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 456018992 Bytes (844103680)
+2021-12-20 18:34:25,268 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 467031088 Bytes (844103680)
+2021-12-20 18:34:25,682 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 522079280 Bytes (844103680)
+2021-12-20 18:34:25,819 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-20 18:34:25,819 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SPI
+2021-12-20 18:34:25,820 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8
+2021-12-20 18:34:25,820 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_DEVICE
+2021-12-20 18:34:25,820 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2021-12-20 18:34:25,820 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2021-12-20 18:34:25,820 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USB_OTG_FS
+2021-12-20 18:34:25,820 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2021-12-20 18:34:25,820 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: USART
+2021-12-20 18:34:25,820 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2021-12-20 18:34:25,820 [INFO] CodeGenerator:663 - code generatio: config db path: /Applications/STM32CubeIDE.app/Contents/Eclipse/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db/
+2021-12-20 18:34:26,189 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp_save
+2021-12-20 18:34:26,227 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/license.tmp
+2021-12-20 18:34:26,263 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp_save
+2021-12-20 18:34:26,305 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/gpio.tmp
+2021-12-20 18:34:26,332 [WARN] IPConfigManager:2741 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2021-12-20 18:34:26,336 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp_save
+2021-12-20 18:34:26,373 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_vars.tmp
+2021-12-20 18:34:26,374 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp_save
+2021-12-20 18:34:26,409 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_inc.tmp
+2021-12-20 18:34:26,409 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp_save
+2021-12-20 18:34:26,449 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_HalInit.tmp
+2021-12-20 18:34:26,450 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp_save
+2021-12-20 18:34:26,500 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/usb_otg_fs_Msp.tmp
+2021-12-20 18:34:26,591 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-20 18:34:26,598 [INFO] Middleware:1388 - No code input for Bsp Dependency
+2021-12-20 18:34:26,602 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c_save
+2021-12-20 18:34:26,649 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.c
+2021-12-20 18:34:26,650 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h_save
+2021-12-20 18:34:26,688 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usb_device.h
+2021-12-20 18:34:26,690 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h_save
+2021-12-20 18:34:26,726 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.h
+2021-12-20 18:34:26,728 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c_save
+2021-12-20 18:34:26,773 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/Target/usbd_conf.c
+2021-12-20 18:34:26,775 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h_save
+2021-12-20 18:34:26,832 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.h
+2021-12-20 18:34:26,834 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c_save
+2021-12-20 18:34:26,904 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_desc.c
+2021-12-20 18:34:26,906 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h_save
+2021-12-20 18:34:26,947 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.h
+2021-12-20 18:34:26,949 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c_save
+2021-12-20 18:34:26,999 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/USB_DEVICE/App/usbd_cdc_if.c
+2021-12-20 18:34:27,006 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c_save
+2021-12-20 18:34:27,054 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_it.c
+2021-12-20 18:34:27,056 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h_save
+2021-12-20 18:34:27,095 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_it.h
+2021-12-20 18:34:27,101 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c_save
+2021-12-20 18:34:27,171 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/stm32f4xx_hal_msp.c
+2021-12-20 18:34:27,172 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp_save
+2021-12-20 18:34:27,210 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/MXTmpFiles/system.tmp
+2021-12-20 18:34:27,213 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h_save
+2021-12-20 18:34:27,262 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/stm32f4xx_hal_conf.h
+2021-12-20 18:34:27,276 [WARN] IPConfigManager:3151 - IP not found : TIM
+2021-12-20 18:34:27,276 [WARN] CodeGenerator:3358 - IP not found : null
+2021-12-20 18:34:27,279 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h_save
+2021-12-20 18:34:27,320 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Inc/main.h
+2021-12-20 18:34:27,322 [INFO] CodeEngine:239 - oldGeneratedFile, /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c_save
+2021-12-20 18:34:27,395 [INFO] CodeEngine:257 - Generated code: /Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/Core/Src/main.c
+2021-12-20 18:34:27,848 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 88mS.
+2021-12-20 18:34:27,851 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2021-12-20 18:34:28,132 [INFO] ConfigFileManager:1273 - The Die is : DIE413
+2021-12-20 18:34:29,079 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 1228mS.
+2021-12-20 18:34:29,079 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2021-12-20 18:34:29,082 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.

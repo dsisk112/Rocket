@@ -1,0 +1,211 @@
+21:14:04 **** Incremental Build of configuration Debug for project STM32F407ZGT7 ****
+make -j15 all 
+arm-none-eabi-gcc "../Core/Src/Driver/bmp38x.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Driver/bmp38x.d" -MT"Core/Src/Driver/bmp38x.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Driver/bmp38x.o"
+arm-none-eabi-g++ -o "STM32F407ZGT7.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407ZGT7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F407ZGT7.elf
+ 
+arm-none-eabi-size   STM32F407ZGT7.elf 
+arm-none-eabi-objdump -h -S  STM32F407ZGT7.elf  > "STM32F407ZGT7.list"
+arm-none-eabi-objcopy  -O binary  STM32F407ZGT7.elf  "STM32F407ZGT7.bin"
+   text	   data	    bss	    dec	    hex	filename
+  34284	    392	   8896	  43572	   aa34	STM32F407ZGT7.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F407ZGT7.bin
+ 
+Finished building: STM32F407ZGT7.list
+ 
+21:19:40 **** Incremental Build of configuration Debug for project STM32F407ZGT7 ****
+make -j15 all 
+arm-none-eabi-size   STM32F407ZGT7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  34284	    392	   8896	  43572	   aa34	STM32F407ZGT7.elf
+Finished building: default.size.stdout
+ 
+21:20:31 **** Incremental Build of configuration Debug for project STM32F407ZGT7 ****
+make -j15 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:144:17: error: incompatible type for argument 1 of 'BMP_Read_Data'
+  144 |   BMP_Read_Data(BMP);
+      |                 ^~~
+      |                 |
+      |                 barometer_t {aka struct <anonymous>}
+In file included from ../Core/Src/main.c:35:
+../Core/Inc/bmp38x.h:136:33: note: expected 'barometer_t *' {aka 'struct <anonymous> *'} but argument is of type 'barometer_t' {aka 'struct <anonymous>'}
+  136 | void BMP_Read_Data(barometer_t *BMP);
+      |                    ~~~~~~~~~~~~~^~~
+../Core/Src/main.c:107:16: warning: unused variable 'Orientation' [-Wunused-variable]
+  107 |   quaternion_t Orientation;
+      |                ^~~~~~~~~~~
+In file included from ../Core/Src/main.c:35:
+../Core/Src/main.c: At top level:
+../Core/Inc/bmp38x.h:138:14: warning: 'BMP_Compensate_T' declared 'static' but never defined [-Wunused-function]
+  138 | static float BMP_Compensate_T(uint32_t uncomp_temp);
+      |              ^~~~~~~~~~~~~~~~
+../Core/Inc/bmp38x.h:140:14: warning: 'BMP_Compensate_P' declared 'static' but never defined [-Wunused-function]
+  140 | static float BMP_Compensate_P(uint32_t uncomp_press);
+      |              ^~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j15 all" terminated with exit code 2. Build might be incomplete.
+21:20:46 **** Incremental Build of configuration Debug for project STM32F407ZGT7 ****
+make -j15 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:16: warning: unused variable 'Orientation' [-Wunused-variable]
+  107 |   quaternion_t Orientation;
+      |                ^~~~~~~~~~~
+In file included from ../Core/Src/main.c:35:
+../Core/Src/main.c: At top level:
+../Core/Inc/bmp38x.h:138:14: warning: 'BMP_Compensate_T' declared 'static' but never defined [-Wunused-function]
+  138 | static float BMP_Compensate_T(uint32_t uncomp_temp);
+      |              ^~~~~~~~~~~~~~~~
+../Core/Inc/bmp38x.h:140:14: warning: 'BMP_Compensate_P' declared 'static' but never defined [-Wunused-function]
+  140 | static float BMP_Compensate_P(uint32_t uncomp_press);
+      |              ^~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "STM32F407ZGT7.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407ZGT7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F407ZGT7.elf
+ 
+arm-none-eabi-size   STM32F407ZGT7.elf 
+arm-none-eabi-objdump -h -S  STM32F407ZGT7.elf  > "STM32F407ZGT7.list"
+arm-none-eabi-objcopy  -O binary  STM32F407ZGT7.elf  "STM32F407ZGT7.bin"
+   text	   data	    bss	    dec	    hex	filename
+  42788	    492	   8892	  52172	   cbcc	STM32F407ZGT7.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F407ZGT7.bin
+ 
+Finished building: STM32F407ZGT7.list
+ 
+21:23:39 **** Incremental Build of configuration Debug for project STM32F407ZGT7 ****
+make -j15 all 
+arm-none-eabi-size   STM32F407ZGT7.elf 
+   text	   data	    bss	    dec	    hex	filename
+  42788	    492	   8892	  52172	   cbcc	STM32F407ZGT7.elf
+Finished building: default.size.stdout
+ 
+21:25:35 **** Incremental Build of configuration Debug for project STM32F407ZGT7 ****
+make -j15 all 
+arm-none-eabi-gcc "../Core/Src/Driver/bmp38x.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Driver/bmp38x.d" -MT"Core/Src/Driver/bmp38x.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Driver/bmp38x.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:16: warning: unused variable 'Orientation' [-Wunused-variable]
+  107 |   quaternion_t Orientation;
+      |                ^~~~~~~~~~~
+In file included from ../Core/Src/main.c:35:
+../Core/Src/main.c: At top level:
+../Core/Inc/bmp38x.h:138:14: warning: 'BMP_Compensate_T' declared 'static' but never defined [-Wunused-function]
+  138 | static float BMP_Compensate_T(uint32_t uncomp_temp);
+      |              ^~~~~~~~~~~~~~~~
+../Core/Inc/bmp38x.h:140:14: warning: 'BMP_Compensate_P' declared 'static' but never defined [-Wunused-function]
+  140 | static float BMP_Compensate_P(uint32_t uncomp_press);
+      |              ^~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "STM32F407ZGT7.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407ZGT7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F407ZGT7.elf
+ 
+arm-none-eabi-size   STM32F407ZGT7.elf 
+arm-none-eabi-objdump -h -S  STM32F407ZGT7.elf  > "STM32F407ZGT7.list"
+arm-none-eabi-objcopy  -O binary  STM32F407ZGT7.elf  "STM32F407ZGT7.bin"
+   text	   data	    bss	    dec	    hex	filename
+  41588	    492	   8892	  50972	   c71c	STM32F407ZGT7.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F407ZGT7.bin
+ 
+Finished building: STM32F407ZGT7.list
+ 
+21:29:39 **** Incremental Build of configuration Debug for project STM32F407ZGT7 ****
+make -j15 all 
+arm-none-eabi-gcc "../Core/Src/Driver/bmp38x.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Driver/bmp38x.d" -MT"Core/Src/Driver/bmp38x.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Driver/bmp38x.o"
+../Core/Src/Driver/bmp38x.c: In function 'BMP38X_Init':
+../Core/Src/Driver/bmp38x.c:39:8: warning: unused variable 'temp' [-Wunused-variable]
+   39 |  float temp = (float)(((uint16_t)CalibrationData[3] << 8 | (uint16_t)CalibrationData[2])/(2^(-8)));
+      |        ^~~~
+arm-none-eabi-g++ -o "STM32F407ZGT7.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407ZGT7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F407ZGT7.elf
+ 
+arm-none-eabi-size   STM32F407ZGT7.elf 
+arm-none-eabi-objdump -h -S  STM32F407ZGT7.elf  > "STM32F407ZGT7.list"
+arm-none-eabi-objcopy  -O binary  STM32F407ZGT7.elf  "STM32F407ZGT7.bin"
+   text	   data	    bss	    dec	    hex	filename
+  41628	    492	   8892	  51012	   c744	STM32F407ZGT7.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F407ZGT7.bin
+ 
+Finished building: STM32F407ZGT7.list
+ 
+21:33:43 **** Incremental Build of configuration Debug for project STM32F407ZGT7 ****
+make -j15 all 
+arm-none-eabi-gcc "../Core/Src/Driver/bmp38x.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Driver/bmp38x.d" -MT"Core/Src/Driver/bmp38x.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Driver/bmp38x.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/Driver/bmp38x.c: In function 'BMP38X_Init':
+../Core/Src/Driver/bmp38x.c:39:8: warning: unused variable 'temp' [-Wunused-variable]
+   39 |  float temp = (float)(((uint16_t)CalibrationData[3] << 8 | (uint16_t)CalibrationData[2])/(2^(-8)));
+      |        ^~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:16: warning: unused variable 'Orientation' [-Wunused-variable]
+  107 |   quaternion_t Orientation;
+      |                ^~~~~~~~~~~
+In file included from ../Core/Src/main.c:35:
+../Core/Src/main.c: At top level:
+../Core/Inc/bmp38x.h:138:14: warning: 'BMP_Compensate_T' declared 'static' but never defined [-Wunused-function]
+  138 | static float BMP_Compensate_T(uint32_t uncomp_temp, bmp_calibration_data *calib_data);
+      |              ^~~~~~~~~~~~~~~~
+../Core/Inc/bmp38x.h:140:14: warning: 'BMP_Compensate_P' declared 'static' but never defined [-Wunused-function]
+  140 | static float BMP_Compensate_P(uint32_t uncomp_press, bmp_calibration_data *calib_data);
+      |              ^~~~~~~~~~~~~~~~
+arm-none-eabi-g++ -o "STM32F407ZGT7.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407ZGT7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F407ZGT7.elf
+ 
+arm-none-eabi-size   STM32F407ZGT7.elf 
+arm-none-eabi-objdump -h -S  STM32F407ZGT7.elf  > "STM32F407ZGT7.list"
+arm-none-eabi-objcopy  -O binary  STM32F407ZGT7.elf  "STM32F407ZGT7.bin"
+   text	   data	    bss	    dec	    hex	filename
+  41572	    492	   8892	  50956	   c70c	STM32F407ZGT7.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F407ZGT7.bin
+ 
+Finished building: STM32F407ZGT7.list
+ 
+21:42:53 **** Incremental Build of configuration Debug for project STM32F407ZGT7 ****
+make -j15 all 
+arm-none-eabi-gcc "../Core/Src/Driver/bmp38x.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Driver/bmp38x.d" -MT"Core/Src/Driver/bmp38x.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Driver/bmp38x.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:107:16: warning: unused variable 'Orientation' [-Wunused-variable]
+  107 |   quaternion_t Orientation;
+      |                ^~~~~~~~~~~
+arm-none-eabi-g++ -o "STM32F407ZGT7.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407ZGT7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F407ZGT7.elf
+ 
+arm-none-eabi-size   STM32F407ZGT7.elf 
+arm-none-eabi-objdump -h -S  STM32F407ZGT7.elf  > "STM32F407ZGT7.list"
+arm-none-eabi-objcopy  -O binary  STM32F407ZGT7.elf  "STM32F407ZGT7.bin"
+   text	   data	    bss	    dec	    hex	filename
+  41532	    492	   8892	  50916	   c6e4	STM32F407ZGT7.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F407ZGT7.bin
+ 
+Finished building: STM32F407ZGT7.list
+ 
+21:49:14 **** Incremental Build of configuration Debug for project STM32F407ZGT7 ****
+make -j15 all 
+arm-none-eabi-gcc "../Core/Src/Driver/bmp38x.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Driver/bmp38x.d" -MT"Core/Src/Driver/bmp38x.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Driver/bmp38x.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "STM32F407ZGT7.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407ZGT7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F407ZGT7.elf
+ 
+arm-none-eabi-size   STM32F407ZGT7.elf 
+arm-none-eabi-objdump -h -S  STM32F407ZGT7.elf  > "STM32F407ZGT7.list"
+arm-none-eabi-objcopy  -O binary  STM32F407ZGT7.elf  "STM32F407ZGT7.bin"
+   text	   data	    bss	    dec	    hex	filename
+  41628	    492	   8988	  51108	   c7a4	STM32F407ZGT7.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F407ZGT7.bin
+ 
+Finished building: STM32F407ZGT7.list
+ 

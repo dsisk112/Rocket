@@ -1,0 +1,16 @@
+
+#include "App.hpp"
+
+extern "C" {
+
+
+
+
+int savemessage(int input)
+{
+	return(input+1);
+
+}
+
+
+}
