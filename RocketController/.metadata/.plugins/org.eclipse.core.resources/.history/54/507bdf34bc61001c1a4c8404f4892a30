@@ -1,0 +1,31 @@
+#ifndef __App__h
+#define __App__h
+
+
+	typedef struct
+	{
+		SPI_HandleTypeDef GXL;
+		SPI_HandleTypeDef Flash;
+		SPI_HandleTypeDef Baro;
+
+		//Bottom
+		TIM_HandleTypeDef Servo1;
+		TIM_HandleTypeDef Servo1;
+		TIM_HandleTypeDef Servo1;
+		TIM_HandleTypeDef Servo1;
+		TIM_HandleTypeDef Servo1;
+		TIM_HandleTypeDef Servo1;
+		//Top
+		TIM_HandleTypeDef Servo1;
+		TIM_HandleTypeDef Servo1;
+		TIM_HandleTypeDef Servo1;
+		TIM_HandleTypeDef Servo1;
+
+
+		UART_HandleTypeDef huart1;
+
+
+	} Interface_t;
+
+
+#endif

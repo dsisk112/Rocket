@@ -5,12 +5,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../Core/Src/Driver/bmp38x.c \
 ../Core/Src/Driver/lsm6ds3.c 
 
 C_DEPS += \
+./Core/Src/Driver/bmp38x.d \
 ./Core/Src/Driver/lsm6ds3.d 
 
 OBJS += \
+./Core/Src/Driver/bmp38x.o \
 ./Core/Src/Driver/lsm6ds3.o 
 
 
@@ -21,7 +24,7 @@ Core/Src/Driver/%.o: ../Core/Src/Driver/%.c Core/Src/Driver/subdir.mk
 clean: clean-Core-2f-Src-2f-Driver
 
 clean-Core-2f-Src-2f-Driver:
-	-$(RM) ./Core/Src/Driver/lsm6ds3.d ./Core/Src/Driver/lsm6ds3.o
+	-$(RM) ./Core/Src/Driver/bmp38x.d ./Core/Src/Driver/bmp38x.o ./Core/Src/Driver/lsm6ds3.d ./Core/Src/Driver/lsm6ds3.o
 
 .PHONY: clean-Core-2f-Src-2f-Driver
 

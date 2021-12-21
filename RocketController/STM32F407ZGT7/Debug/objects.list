@@ -1,3 +1,5 @@
+"./Core/Src/App/Fusion.o"
+"./Core/Src/Driver/bmp38x.o"
 "./Core/Src/Driver/lsm6ds3.o"
 "./Core/Src/main.o"
 "./Core/Src/stm32f4xx_hal_msp.o"

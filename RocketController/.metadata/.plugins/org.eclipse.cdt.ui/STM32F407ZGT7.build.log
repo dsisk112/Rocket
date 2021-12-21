@@ -1,0 +1,21 @@
+21:49:14 **** Incremental Build of configuration Debug for project STM32F407ZGT7 ****
+make -j15 all 
+arm-none-eabi-gcc "../Core/Src/Driver/bmp38x.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Driver/bmp38x.d" -MT"Core/Src/Driver/bmp38x.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Driver/bmp38x.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "STM32F407ZGT7.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/gasisk/Documents/GitHub/Rocket/RocketController/STM32F407ZGT7/STM32F407ZGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F407ZGT7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32F407ZGT7.elf
+ 
+arm-none-eabi-size   STM32F407ZGT7.elf 
+arm-none-eabi-objdump -h -S  STM32F407ZGT7.elf  > "STM32F407ZGT7.list"
+arm-none-eabi-objcopy  -O binary  STM32F407ZGT7.elf  "STM32F407ZGT7.bin"
+   text	   data	    bss	    dec	    hex	filename
+  41628	    492	   8988	  51108	   c7a4	STM32F407ZGT7.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F407ZGT7.bin
+ 
+Finished building: STM32F407ZGT7.list
+ 
+
+21:49:15 Build Finished. 0 errors, 0 warnings. (took 930ms)
+

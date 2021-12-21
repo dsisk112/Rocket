@@ -1,0 +1,4 @@
+bmp38x.c:11:9:BMP38X_Init	96	static
+bmp38x.c:62:6:BMP_Read_Data	80	static
+bmp38x.c:93:7:BMP_Compensate_T	24	static
+bmp38x.c:107:7:BMP_Compensate_P	48	static

@@ -1,0 +1,13 @@
+#ifndef __App__h
+#define __App__h
+
+
+	typedef struct
+	{
+
+
+
+	} Interface_t;
+
+
+#endif

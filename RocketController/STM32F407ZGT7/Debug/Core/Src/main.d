@@ -40,7 +40,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
  ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h \
- ../Core/Inc/3d.h ../Core/Src/../Src/Driver/lsm6ds3.h
+ ../Core/Inc/3d.h ../Core/Inc/App.h ../Core/Inc/lsm6ds3.h \
+ ../Core/Inc/3d.h ../Core/Inc/main.h ../Core/Inc/bmp38x.h
 
 ../Core/Inc/main.h:
 
@@ -130,4 +131,12 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 
 ../Core/Inc/3d.h:
 
-../Core/Src/../Src/Driver/lsm6ds3.h:
+../Core/Inc/App.h:
+
+../Core/Inc/lsm6ds3.h:
+
+../Core/Inc/3d.h:
+
+../Core/Inc/main.h:
+
+../Core/Inc/bmp38x.h:

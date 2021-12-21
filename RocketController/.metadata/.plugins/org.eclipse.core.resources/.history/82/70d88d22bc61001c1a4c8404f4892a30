@@ -1,0 +1,19 @@
+#ifndef __App__h
+#define __App__h
+
+
+	typedef struct
+	{
+		SPI_HandleTypeDef GXL;
+		SPI_HandleTypeDef Flash;
+		SPI_HandleTypeDef Baro;
+
+		TIM_HandleTypeDef htim4;
+
+		UART_HandleTypeDef huart1;
+
+
+	} Interface_t;
+
+
+#endif

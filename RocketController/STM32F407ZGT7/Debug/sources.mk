@@ -30,6 +30,7 @@ CPP_DEPS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
+Core/Src/App \
 Core/Src/Driver \
 Core/Src \
 Core/Startup \

@@ -1,0 +1,17 @@
+#ifndef __App__h
+#define __App__h
+
+
+extern "C" {
+
+
+#include <iostream>
+
+	int savemessage();
+
+
+
+}
+
+
+#endif

@@ -62,8 +62,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define lsm6ds3_CS_Pin GPIO_PIN_5
-#define lsm6ds3_CS_GPIO_Port GPIOC
+#define SPI1_CS_Pin GPIO_PIN_5
+#define SPI1_CS_GPIO_Port GPIOC
+#define SPI3_CS_Pin GPIO_PIN_15
+#define SPI3_CS_GPIO_Port GPIOA
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
