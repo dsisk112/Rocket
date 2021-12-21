@@ -13,12 +13,17 @@ export class VersionService {
             var versionRequest = [0x01, 0x00];
             var readData = 0;
             var timer = 0;
+            try { 
             this.port.open();
             this.port.on('error', (error) => {
-                console.log("1st" + error.message);
+                console.log(error.message);
                 if (this.port.isOpen) this.port.close((err) => {});
                 reject();
-            })
+            });
+            } catch (error) {
+                console.log("Error Openning Port");
+                reject();
+            }
             this.port.on('open', () => {
                 this.port.write(Buffer.from(versionRequest), (err) => {
                     console.log('message written');
@@ -35,7 +40,7 @@ export class VersionService {
                         resolve(readData);
                     })
                     this.port.on('error', (error)=> {
-                        console.log("2nd" + error.message)
+                        console.log(error.message)
                         if (this.port.isOpen) this.port.close((err) => {});
                         reject();
                     })

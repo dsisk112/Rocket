@@ -6,8 +6,14 @@ class VersionController {
 
     static async getVersionHandler(req, resp, next) {
         const versionService = new VersionService();
-        const version = await versionService.getVersion();
-        resp.send(version);
+        await versionService.getVersion()
+        .then((version) => {
+            resp.send(version);
+        }) 
+        .catch((err) => {
+            console.log("Error getting version");
+            resp.sendStatus(401);
+        });
     }
 }
 
