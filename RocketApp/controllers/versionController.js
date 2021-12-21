@@ -1,13 +1,16 @@
 import { VersionService } from '../services/versionService.js'
 
-export class VersionController {
-    constructor(versionService) {
-        this._versionService = versionService
+class VersionController {
+    constructor() {
     }
 
-    getVersion() {
-        return (this._versionService.getVersion());
+    static async getVersionHandler(req, resp, next) {
+        const versionService = new VersionService();
+        const version = await versionService.getVersion();
+        resp.send(version);
     }
 }
+
+export default VersionController;
 
 
